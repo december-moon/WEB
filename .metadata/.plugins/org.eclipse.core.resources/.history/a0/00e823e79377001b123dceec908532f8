@@ -1,0 +1,12 @@
+package com.mvc.dao;
+
+public interface MVCBoardDao {
+
+	String SELECT_LIST_SQL = " SELECT SEQ, WRITER, TITLE, CONTENT, REGDATE "
+			+ "FROM BOARD "
+			+ "ORDER BY SEQ DESC ";
+	String SELECT_ONE_SQL = " SELECT SEQ, WRITER, TITLE, CONTENT, REGDATE "
+			+" FROM MVCBOARD "
+			+" WHERE SEQ =? ";
+	
+}

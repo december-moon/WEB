@@ -1,0 +1,5 @@
+package com.mvc.dao;
+
+public class MVCBoardDaoImpl implements MVCBoardDao {
+
+}

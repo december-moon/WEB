@@ -1,0 +1,32 @@
+package com.answer.controller;
+
+import javax.servlet.http.HttpServletMapping;
+import javax.servlet.http.MappingMatch;
+
+public class AnswerController implements HttpServletMapping {
+
+	@Override
+	public MappingMatch getMappingMatch() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getMatchValue() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getPattern() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getServletName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

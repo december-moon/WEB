@@ -1,0 +1,6 @@
+package com.mvc.dao;
+
+public interface MVCBoardDao {
+
+	String SELECT_LIST_SQL = "";
+}

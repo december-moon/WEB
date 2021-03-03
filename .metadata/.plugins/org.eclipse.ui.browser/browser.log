@@ -1,0 +1,26 @@
+
+2월 24, 2021 02:31:14.650 NEW SESSION
+2월 24, 2021 02:31:14.650 [15856:5952:0224/023114.649:ERROR:device_event_log_impl.cc(211)] [02:31:14.650] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 24, 2021 02:33:14.301 [15856:5952:0224/023314.300:ERROR:CONSOLE(0)] "Error handling response: TypeError: Cannot read property 'always' of undefined
+2월 24, 2021 02:33:14.306     at chrome-extension://cnfngpgfjllafbghaimjcmailafcdhod/releaseDrag.js:90:49", source: https://ogs.google.com/u/0/widget/app?bc=0&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=ko (0)
+2월 24, 2021 03:06:06.211 [15856:5952:0224/030606.211:ERROR:CONSOLE(0)] "Error handling response: TypeError: Cannot read property 'always' of undefined
+2월 24, 2021 03:06:06.216     at chrome-extension://cnfngpgfjllafbghaimjcmailafcdhod/releaseDrag.js:90:49", source: https://ogs.google.com/u/0/widget/app?bc=0&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=ko (0)
+
+2월 26, 2021 02:08:34.598 NEW SESSION
+2월 26, 2021 02:08:34.598 [9596:15732:0226/020834.596:ERROR:device_event_log_impl.cc(211)] [02:08:34.597] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 26, 2021 04:04:14.312 [13960:6660:0226/040414.312:ERROR:device_event_log_impl.cc(211)] [04:04:14.312] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 26, 2021 04:04:14.317 [13960:6660:0226/040414.312:ERROR:device_event_log_impl.cc(211)] [04:04:14.312] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+
+3월 01, 2021 22:10:19.261 NEW SESSION
+3월 01, 2021 22:10:19.262 [11860:13832:0301/221019.254:ERROR:device_event_log_impl.cc(211)] [22:10:19.254] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+3월 01, 2021 22:10:19.267 [11860:13832:0301/221019.254:ERROR:device_event_log_impl.cc(211)] [22:10:19.254] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+3월 01, 2021 22:10:41.929 [11860:13832:0301/221041.928:ERROR:CONSOLE(0)] "Error handling response: TypeError: Cannot read property 'always' of undefined
+3월 01, 2021 22:10:41.934     at chrome-extension://cnfngpgfjllafbghaimjcmailafcdhod/releaseDrag.js:90:49", source: https://ogs.google.com/u/0/widget/app?bc=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=ko (0)
+3월 01, 2021 22:25:50.935 [11860:13832:0301/222550.935:ERROR:device_event_log_impl.cc(211)] [22:25:50.934] USB: usb_service_win.cc:258 Failed to get device driver name: 요소가 없습니다. (0x490)
+
+3월 02, 2021 02:01:58.538 NEW SESSION
+3월 02, 2021 02:01:58.538 [16236:1516:0302/020158.537:ERROR:device_event_log_impl.cc(211)] [02:01:58.537] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+3월 02, 2021 02:42:38.80 [7832:15880:0302/024238.080:ERROR:device_event_log_impl.cc(211)] [02:42:38.080] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+3월 02, 2021 02:45:45.216 [5400:15196:0302/024545.216:ERROR:device_event_log_impl.cc(211)] [02:45:45.216] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+3월 02, 2021 02:45:45.221 [5400:15196:0302/024545.216:ERROR:device_event_log_impl.cc(211)] [02:45:45.216] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+3월 02, 2021 02:48:48.292 [15264:10616:0302/024848.292:ERROR:device_event_log_impl.cc(211)] [02:48:48.292] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)

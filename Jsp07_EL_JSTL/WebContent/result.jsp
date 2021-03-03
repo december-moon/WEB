@@ -1,0 +1,17 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    <% request.setCharacterEncoding("UTF-8");
+    response.setContentType("text/html; charset=UTF-8");%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<jsp:useBean id="sc" class="com.el.dto.Score" scope="session"></jsp:useBean>
+	<h1><jsp:getProperty property="name" name="sc"/></h1>
+	<h1>${sc.name }</h1>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+package com.mvc.biz;
+
+import com.mvc.dao.MVCBoardDao;
+
+public interface MVCBoardBiz {
+	
+	MVCBoardDao dao;
+	
+	public MVCBoradBiz() {
+		dao = new MVCBoardDao();
+	}
+
+}

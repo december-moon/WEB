@@ -1,0 +1,5 @@
+package com.answer.dto;
+
+public class AnswerDto {
+
+}

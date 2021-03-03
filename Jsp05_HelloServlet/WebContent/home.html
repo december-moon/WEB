@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<h1>HOME</h1>
+	
+	<!-- get 방식으로 hello.do 호출  -->
+	<a href="hello.do?command=get">hello</a>
+	<br/>
+	<form action="controller.do" method="post">
+		<input type="hidden" name="command" value="post"/>
+		<input type="submit" value="hello"/>
+	</form>
+
+</body>
+</html>

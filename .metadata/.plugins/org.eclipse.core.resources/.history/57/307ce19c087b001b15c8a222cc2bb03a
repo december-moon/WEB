@@ -1,0 +1,67 @@
+package com.answer.dto;
+
+import java.util.Date;
+
+public class AnswerDto {
+	
+	private int boardno;
+	private String writer;
+	private String title;
+	private String content;
+	private Date date;
+	
+	public AnswerDto(int boardno, String writer, String title, String content, Date date) {
+		this.boardno = boardno;
+		this.writer = writer;
+		this.title = title;
+		this.content = content;
+		this.date = date;
+	}
+	
+	public AnswerDto() {
+		
+	}
+
+	public int getBoardno() {
+		return boardno;
+	}
+
+	public void setBoardno(int boardno) {
+		this.boardno = boardno;
+	}
+
+	public String getWriter() {
+		return writer;
+	}
+
+	public void setWriter(String writer) {
+		this.writer = writer;
+	}
+
+	public String getTitle() {
+		return title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+	public String getContent() {
+		return content;
+	}
+
+	public void setContent(String content) {
+		this.content = content;
+	}
+
+	public Date getDate() {
+		return date;
+	}
+
+	public void setDate(Date date) {
+		this.date = date;
+	}
+	
+	
+
+}

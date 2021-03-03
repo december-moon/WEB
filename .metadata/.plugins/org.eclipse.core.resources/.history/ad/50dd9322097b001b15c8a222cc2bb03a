@@ -1,0 +1,85 @@
+package com.answer.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.answer.dto.AnswerDto;
+import static com.answer.db.JDBCTemplate.*;
+
+public class AnswerDaoImpl implements AnswerDao {
+
+	@Override
+	public List<AnswerDto> selectList() {
+		Connection con = getConnection();
+		PreparedStatement pstm = null;
+		//select는 테이블이라서 resultset에 담는다 *외우기
+		ResultSet rs = null;
+		List<AnswerDto> list = new ArrayList<AnswerDto>();
+		
+		try {
+			pstm=con.prepareStatement(SELECT_LIST_SQL);
+			System.out.println("쿼리 준비: "+SELECT_LIST_SQL);
+			
+			//테이블을 rs에 담아 둠
+			rs=pstm.executeQuery();
+			
+			
+			while(rs.next()) {
+				AnswerDto dto = new AnswerDto();
+				dto.setBoardno(rs.getInt(1));
+				dto.setWriter(rs.getString(2));
+				dto.setTitle(rs.getString(3));
+				dto.setDate(rs.getDate(5));
+				
+				list.add(dto);
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}finally {
+			close(rs, pstm, con);
+		}
+		
+		return list;
+	}
+
+	@Override
+	public AnswerDto selectOne(int boardno) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int boardInsert(AnswerDto dto) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int boardUpdate(AnswerDto dto) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int boardDelete(int boardno) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int answerUpdate(int parentBoardNo) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int answerInsert(AnswerDto dto) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

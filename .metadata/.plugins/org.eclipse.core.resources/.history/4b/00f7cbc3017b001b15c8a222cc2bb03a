@@ -1,0 +1,12 @@
+package com.answer.dto;
+
+public class AnswerDto {
+	
+	private int boardno;
+	private String writer;
+	private String title;
+	private String content;
+	private Date date;
+	
+
+}

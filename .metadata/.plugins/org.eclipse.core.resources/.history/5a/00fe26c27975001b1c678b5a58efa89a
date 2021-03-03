@@ -1,0 +1,71 @@
+package com.hello.servlet;
+
+import java.io.IOException;
+
+import javax.servlet.ServletConfig;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class HelloServlet
+ */
+@WebServlet("/HelloServlet")
+public class HelloServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+	
+	private String initParam;
+	private String contextParam;
+       
+     // @see HttpServlet#HttpServlet()
+    public HelloServlet() {
+    	System.out.println("servlet constructor");
+    }
+	
+	@Override
+	public void init(ServletConfig config) throws ServletException {
+		System.out.println("servlet init");
+		contextParam = config.getServletContext().getInitParameter("name");
+		initParam = config.getInitParameter("sports");
+		System.out.println("context-param:"+contextParam);
+		System.out.println("init-param: "+initParam);
+	}
+
+	 // @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		request.setCharacterEncoding("UTF-8");
+		response.setContentType("text/html; charset=UTF-8");
+		
+		System.out.println("Get 방식으로 들어옴!");
+		//1.
+		
+		//2.
+		
+		//3.
+		
+		//4.
+	}
+
+	// @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		request.setCharacterEncoding("UTF-8");
+		response.setContentType("text/html; charset=UTF-8");
+		
+		System.out.println("Post 방식으로 들어옴!");
+		//1.
+		
+		//2.
+		
+		//3.
+		
+		//4.
+	}
+	
+	@Override
+	public void destroy() {
+		System.out.println("servlet destroy");
+	}
+
+}

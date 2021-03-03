@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<!-- c:\tomcat\webapps\examples\jsp\jsp2\el -->
+	<a href = "controller.do?command=el">Expression Language</a>
+	<br/>
+	<a href = "controller.do?command=eltest">EL Test</a>
+	<br/>
+	<a href = "controller.do?command=jstl">JSTL Test</a>
+</body>
+</html>

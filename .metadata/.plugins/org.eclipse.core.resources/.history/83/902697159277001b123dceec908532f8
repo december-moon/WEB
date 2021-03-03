@@ -1,0 +1,9 @@
+package com.mvc.biz;
+
+public interface MVCBoardBiz {
+	
+	public List<MVCBoardDto> selectList();
+	
+	}
+
+}

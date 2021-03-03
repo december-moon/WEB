@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.board.db.JDBCTemplete&apos; to &apos;JDBCTemplate&apos;&#x0D;&#x0A;- Original project: &apos;Jsp01_MyBoard&apos;&#x0D;&#x0A;- Original element: &apos;com.board.db.JDBCTemplete&apos;&#x0D;&#x0A;- Renamed element: &apos;com.board.db.JDBCTemplate&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;JDBCTemplete&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.board.db{JDBCTemplete.java[JDBCTemplete" matchStrategy="1" name="JDBCTemplate" qualified="false" references="true" similarDeclarations="false" stamp="1613348512123" textual="false" version="1.0"/>
+</session>
