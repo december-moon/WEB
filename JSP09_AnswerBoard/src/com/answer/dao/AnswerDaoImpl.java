@@ -98,13 +98,13 @@ public class AnswerDaoImpl implements AnswerDao {
 			pstm.setString(1, dto.getWriter());
 			pstm.setString(2, dto.getTitle());
 			pstm.setString(3, dto.getContent());
-			
 			res = pstm.executeUpdate();
 			
 			if(res>0) {
 				commit(con);
 			}
 		} catch (SQLException e) {
+			System.out.println("22142343");
 			e.printStackTrace();
 		}finally {
 			close(pstm, con);
