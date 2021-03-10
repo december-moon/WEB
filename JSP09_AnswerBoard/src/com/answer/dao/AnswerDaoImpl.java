@@ -104,7 +104,6 @@ public class AnswerDaoImpl implements AnswerDao {
 				commit(con);
 			}
 		} catch (SQLException e) {
-			System.out.println("22142343");
 			e.printStackTrace();
 		}finally {
 			close(pstm, con);

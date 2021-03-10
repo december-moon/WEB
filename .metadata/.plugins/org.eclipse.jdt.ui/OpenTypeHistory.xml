@@ -5,4 +5,9 @@
     <typeInfo handle="=Jsp03_MVC/src&lt;com.mvc.dao{MVCBoardDao.java[MVCBoardDao" modifiers="513" timestamp="1613669215880"/>
     <typeInfo handle="=Jsp03_MVC/src&lt;com.mvc.biz{MVCBoardBiz.java[MVCBoardBiz" modifiers="513" timestamp="1613616090073"/>
     <typeInfo handle="=Jsp08_MVC/src&lt;com.mvc.biz{MVCBoardBiz.java[MVCBoardBiz" modifiers="513" timestamp="1614275647081"/>
+    <typeInfo handle="=JSP09_AnswerBoard/src&lt;com.answer.dao{AnswerDao.java[AnswerDao" modifiers="513" timestamp="1614783544640"/>
+    <typeInfo handle="=JSP09_AnswerBoard/src&lt;com.answer.biz{AnswerBiz.java[AnswerBiz" modifiers="513" timestamp="1614651786930"/>
+    <typeInfo handle="=JSP09_AnswerBoard/C:\/tomcat\/lib\/servlet-api.jar=/owner.project.facets=/jst.web=/=/javadoc_location=/https:\/\/javaee.github.io\/javaee-spec\/javadocs\/=/&lt;javax.servlet.http(HttpServletMapping.class[HttpServletMapping" modifiers="1537" timestamp="1606995950000"/>
+    <typeInfo handle="=JSP09_AnswerBoard_delflag/src&lt;com.answer.biz{AnswerBiz.java[AnswerBiz" modifiers="513" timestamp="1614822271871"/>
+    <typeInfo handle="=JSP09_AnswerBoard_delflag/src&lt;com.answer.dao{AnswerDao.java[AnswerDao" modifiers="513" timestamp="1614821730484"/>
 </typeInfoHistroy>

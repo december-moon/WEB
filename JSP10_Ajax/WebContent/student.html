@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript">
+
+	function getParameterValues(){
+		var name = "name="+encodeURIComponent($("#name").val());
+		var kor = "kor="+$("#kor").val();
+		var eng = "eng="+$("#eng").val();
+		var math = "math="+$("#math").val();
+		
+		return "?" + name + "&" + kor + "&" + eng + "&" + math;
+	}
+	
+	//송신 성공했을 때 받는 값이 json이다
+	//date:보내는 타입 / datatype:받는 타입
+	$(function(){
+		$("#process").click(function(){
+			var queryString = getParameterValues();
+			// alert(queryString);
+			
+			//queryString --> 위에서 만든 getParameterValues
+			$.ajax({
+				url: "score.do"+queryString,
+				dataType: "json",
+				success: function(msg){
+					// msg -> tojasonstring 문자열 형태로 리턴되었는데 제이쿼리라는 애가 $.ajax를 통해 json객체의 {"name":name, "sum":sum, "avg":avg}로 바꿔줌
+					$("#result").html(decodeURIComponent(msg.name)+"의 총점: "+msg.sum + "\n평균 : "+msg.avg);
+					
+				},
+				error: function(){
+					alert("통신 실패");
+				}
+			});
+		});
+	});
+
+</script>
+</head>
+<body>
+
+	<h1>성적 처리 프로그램</h1>
+
+	이름 : <input type = "text" id = "name" /><br/>
+	국어 : <input type = "text" id = "kor" /> <br/>
+	영어 : <input type = "text" id = "eng" /><br/>
+	수학 : <input type = "text" id = "math" /><br/>
+	
+	<input type = "button" id="process" value="성적처리"/><br/>
+	
+	<div id = "result"></div>
+	
+</body>
+</html>

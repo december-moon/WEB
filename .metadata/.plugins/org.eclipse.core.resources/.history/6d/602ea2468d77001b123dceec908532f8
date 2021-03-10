@@ -1,5 +1,0 @@
-package com.mvc.db;
-
-public class JDBCTemplate {
-
-}

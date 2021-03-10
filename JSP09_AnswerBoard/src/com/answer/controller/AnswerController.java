@@ -81,8 +81,10 @@ public class AnswerController extends HttpServlet {
 			String title = request.getParameter("title");
 			String content = request.getParameter("content");
 			
-			int seq = Integer.parseInt(request.getParameter("seq"));
-			AnswerDto dto = new AnswerDto(seq, seq, seq, seq, null, title, content, null);
+			AnswerDto dto = new AnswerDto();
+			dto.setWriter(writer);
+			dto.setTitle(title);
+			dto.setContent(content);
 			
 			int res = biz.boardInsert(dto);
 			if(res>0) {

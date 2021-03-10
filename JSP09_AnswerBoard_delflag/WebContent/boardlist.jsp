@@ -43,7 +43,7 @@
 									<c:forEach begin="1" end="${dto.titletab }">
 										&nbsp;
 									</c:forEach>
-									<a href="">${dto.title }</a>
+									<a href="answer.do?command=select&boardno=${dto.boardno}">${dto.title }</a>
 								</c:otherwise>
 							</c:choose>
 						</td>
@@ -55,7 +55,7 @@
 		</c:choose>
 		<tr>
 			<td colspan="4" align="right">
-				<input type="button" value="글작성" onclick=""/>
+				<input type="button" value="글작성" onclick="location.href='answer.do?command=insertform'"/>
 			</td>
 		</tr>
 	</table>

@@ -13,16 +13,30 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="insertres"/>
+		<item key="selection" value="last"/>
 		<list key="findhistory">
-			<item value="insertres"/>
+			<item value="last"/>
+			<item value=","/>
+			<item value="address"/>
+			<item value="weather"/>
+			<item value="wrss/rss/channel"/>
+			<item value="command"/>
+			<item value="jsondata"/>
+			<item value="records"/>
+			<item value="1318"/>
+			<item value="insert"/>
+			<item value="getA"/>
+			<item value="integer"/>
+			<item value="conetnt"/>
+			<item value="updateres"/>
+			<item value="boardbo"/>
 		</list>
 		<list key="replacehistory">
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="1414"/>
-		<item key="DIALOG_Y_ORIGIN" value="141"/>
+		<item key="DIALOG_X_ORIGIN" value="1406"/>
+		<item key="DIALOG_Y_ORIGIN" value="161"/>
 		<item key="DIALOG_WIDTH" value="340"/>
 		<item key="DIALOG_HEIGHT" value="454"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
